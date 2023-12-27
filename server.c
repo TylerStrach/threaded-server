@@ -1,5 +1,5 @@
-#include "a5-pthread.h"
-#include "a5.h"
+#include "thread.h"
+#include "server.h"
 
 static const char ping_request[]  = "GET /ping HTTP/1.1\r\n\r\n";
 static const char echo_request[]  = "GET /echo HTTP/1.1\r\n";
